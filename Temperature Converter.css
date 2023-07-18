@@ -1,0 +1,77 @@
+*{
+    font-family: 'Belanosima', sans-serif;
+    text-align: center;
+}
+
+body{
+    background: url('images/20230701_034648.gif');
+    background-size: cover;
+    margin:2% 5%;
+}
+.heading{
+    font-family: Cormorant;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+form{
+   width:70%;
+   margin: auto;
+   border-radius: 15px;
+   border-top: 1px solid rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(15px);
+   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+section{
+    margin: 20px;
+    display: flex;
+}
+.tempName{ 
+    font-size: 20px;
+    width: 35%;
+    margin:10px 0;
+    color: rgb(248, 248, 248);
+    letter-spacing: 1px;
+}
+
+input{
+    width: 25%;
+    padding:10px 40px;
+    margin:10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-radius:10px 0 0 10px;
+    background: rgba(225, 225, 225, 0.1);
+}
+
+strong{
+    width: 5%;
+    margin:10px 0;
+   background-color: darkolivegreen;
+   padding: 10px;
+}
+
+#reset{
+    margin: 40px;
+    color: blanchedalmond;
+    background-color: rgb(30, 30, 30);
+    border: 0 ;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+@media screen and (max-width:800px){
+    form{
+        width:100%;
+        margin: 0;
+    }
+    .tempName{ 
+        font-size: 20px;
+        width: 50%;
+    }
+    input{
+        width: 30%
+    }
+
+}
