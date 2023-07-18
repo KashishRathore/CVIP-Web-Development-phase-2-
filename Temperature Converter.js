@@ -98,7 +98,7 @@ rankineInput.oninput = (e) => {
 }
 
 
-reaumurInput.oninput = () => {
+reaumurInput.oninput = (e) => {
     let f = (parseFloat(reaumurInput.value * 2.25) + 32 )
     fahrenheitInput.value = parseFloat(f.toFixed(2));
  
